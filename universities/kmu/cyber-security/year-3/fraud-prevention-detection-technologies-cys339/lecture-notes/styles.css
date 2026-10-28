@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Status Card Styles */
+.status-card {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-card h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.status-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Allowed Status */
+.allowed {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.allowed h2 {
+    color: #155724;
+}
+
+.allowed p {
+    color: #155724;
+}
+
+/* Suspended Status */
+.suspended {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+}
+
+.suspended h2 {
+    color: #856404;
+}
+
+.suspended p {
+    color: #856404;
+}
+
+/* Blocked Status */
+.blocked {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.blocked h2 {
+    color: #721c24;
+}
+
+.blocked p {
+    color: #721c24;
+}
+
+/* Navigation Links */
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.navigation a:hover {
+    background-color: #0056b3;
+}
